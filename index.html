@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Living Dove Chapel | Tema</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+  
+    <img src="./assets/images/logo.png" width="40px" height="40px">
+    
+
+<div class="logo">
+  
+
+  
+Living Dove Chapel
+</div>
+
+<ul class="nav-links" id="navLinks" style="border-radius: 20px; background: linear-gradient(rgb(0,255,255,), rgb(255,222,255));">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#live">Live</a></li>
+<li><a href="#giving">Giving</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="#prayer">Prayer</a></li>
+
+</ul>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+  
+  <img src="./assets/images/logo.png" alt="logo" height="200px" width="200px">
+
+<h1>Living Dove Chapel</h1>
+<i>"Affecting our generation through the anointing."</i>
+
+<p>A place of Peace & Purpose in Tema</p>
+
+<a href="https://www.facebook.com/profile.php?id=100069340956142" target="_blank" class="btn">Visit Church</a>
+
+</section>
+
+<!-- ABOUT SECTION -->
+
+<section class="section" id="about">
+
+<h2>About Our Church</h2>
+
+<p class="about-text">
+
+Living Dove Chapel is a Christ-centered church located in Tema.
+Our mission is to spread the gospel of Jesus Christ, build strong
+families, and raise disciples who impact their communities.
+
+We welcome everyone to experience worship, fellowship,
+and spiritual growth with us.
+
+</p>
+
+</section>
+
+<!-- SCRIPTURE QUOTES -->
+
+<section class="quotes">
+
+<h2>Scripture Inspiration</h2>
+
+<div class="quote-card">
+
+<p>
+
+"For where two or three gather in my name,
+there am I with them."
+
+</p>
+
+<span style="color: yellow;">Matthew 18:20</span>
+
+</div>
+
+<div class="quote-card">
+
+<p>
+
+"The Lord is my shepherd; I shall not want."
+
+</p>
+
+<span  style="color: yellow;">Psalm 23:1</span>
+
+</div>
+
+<div class="quote-card">
+
+<p>
+
+"I can do all things through Christ
+who strengthens me."
+
+</p>
+
+<span style="color: yellow;">Philippians 4:13</span>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section class="section" id="services">
+
+<h2>Weekly Services</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Sunday Worship</h3>
+
+<p>8:00 AM – 11:30 AM</p>
+
+</div>
+
+<div class="card">
+
+<h3>Midweek Service</h3>
+
+<p>Wednesday-Friday 7:00 PM - 8:30 PM</p>
+
+</div>
+
+<div class="card">
+
+<h3>Men's Fellowship</h3>
+
+<p>Tuesdays 7-8 PM</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FACEBOOK LIVE -->
+
+<section class="section live" id="live">
+
+<h2>Watch Live Service</h2>
+
+<div class="video-container">
+
+
+  <div style="position:relative;padding-bottom:56.25%;height:0;">
+  <iframe
+    src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/100069340956142/videos/living-dove-chapel/3511874102299719/"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+</div>
+
+</section>
+
+<!-- GIVING -->
+
+<section class="section giving" id="giving">
+
+<h2>Support The Ministry</h2>
+
+<div class="giving-grid">
+
+<div class="giving-card">
+
+<h3>MTN Mobile Money</h3>
+
+<p>+233(0)25 712 1701</p>
+
+</div>
+
+<div class="giving-card">
+
+<h3 style="color: red;">Telecel Cash</h3>
+
+<p >+233(0)50 797 1000</p>
+
+</div>
+
+<div class="giving-card">
+
+<h3 style="color: deepskyblue;">Bank Transfer</h3>
+
+<p>Living Dove Chapel</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LOCATION / GOOGLE MAPS -->
+
+<section class="section location" id="location">
+
+<h2>Find Us</h2>
+
+<p>Living Dove Chapel • Tema, Ghana</p>
+
+<div class="map-container">
+
+<iframe
+src="https://maps.google.com/maps?q=Living+Dove+Chapel+Tema&output=embed"
+loading="lazy">
+</iframe>
+
+</div>
+
+
+
+</section>
+
+<!-- PRAYER -->
+
+<section class="section prayer" id="prayer">
+
+<h2>Prayer Request</h2>
+
+<form id="prayerForm">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Prayer Request"></textarea>
+
+<button class="btn">Send Prayer</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Living Dove Chapel • Tema Ghana</p>
+
+</footer>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function(){
+emailjs.init("5j75XbTLr23b0FGCh");
+})();
+
+document.getElementById("prayerForm")
+.addEventListener("submit", function(event){
+event.preventDefault();
+
+emailjs.sendForm(
+'service_823myjm',
+'template_outd634',
+this
+).then(function(){
+alert("Message sent successfully!");
+}, function(error){
+alert("Failed to send message.");
+});
+});
+</script>
+
+
+</body>
+</html>
